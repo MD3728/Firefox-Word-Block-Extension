@@ -1,0 +1,21 @@
+{
+  "policies": {
+    "BlockAboutProfiles": true,
+    "DisableFirefoxAccounts": true,
+    "DisableProfileRefresh": true,
+    "DisableSafeMode": true,
+    "DisablePrivateBrowsing": true,
+    "ExtensionSettings": {
+      "*": {
+        "blocked_install_message": "Extension Not Allowed In Whitelist",
+        "installation_mode": "blocked"
+      },
+      "wordbl@md3728.com": {
+        "installation_mode": "force_installed",
+        "install_url": "file:///D:/YourDirectory/ExtensionName.xpi"
+      }
+    }
+  }
+}
+
+
